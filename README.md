@@ -8,22 +8,9 @@
 ### Links and Resources
 * [pull request](https://github.com/401-advanced-javascript-401d29/lab-17/pull/1)
 * [travis](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-17)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
 
 #### Documentation
-* [swagger](http://xyz.com) (API assignments only)
 * [jsdoc](http://xyz.com) (All assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
@@ -31,11 +18,12 @@ Usage Notes or examples
 * `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Within first terminal window
+  * `nodemon server.js`
+* Within the second terminal window
+  * `nc localhost 3001`
+* Within the third terminal window
+  * `nodemon logger.js`
   
 #### Tests
 * How do you run tests?
